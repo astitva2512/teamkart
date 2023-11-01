@@ -43,9 +43,14 @@ body{
     margin: 0px 7px;
     /* background-color: black; */
     border-radius: 10px;
+    transition: all 0.1s ease-in-out;
+}
+#navbar ul li:hover{
+    transform: scale(1.2);
 }
 #navbar ul li:hover{
     cursor: pointer;
+    
 }
 #navbar ul li a{
     text-decoration: none;
@@ -127,6 +132,10 @@ body{
     position: relative;
     top: 60px;
 }
+#contmainbox2{
+    position: relative;
+    top: 100px;
+}
 .container .contmainbox .contbox{
     display: inline-block;
     width: 46%;
@@ -174,14 +183,17 @@ body{
 }
 .container .contmainbox .conttextbox button{
     height: 40px;
-    border: 2px solid #ffffff12;
-    background-color: #40576D12;
+    border: 2px solid #bf1f1f;
+    background-color: #bf1f1f;
     padding: 0px 14px;
     font-size: 14px;
     border-radius: 4px;
     font-weight:700;
+    color: white;
 }
  .container .contmainbox .conttextbox button:hover{
-    background-color: #00000012;
+    background-color: white;
+    border-color: white;
+    color: #bf1f1f;
     cursor: pointer;
 }
